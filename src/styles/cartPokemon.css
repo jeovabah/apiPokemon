@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#card {
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    margin: 5px;
+    text-align: center;
+    justify-content: space-between;
+    background-image: linear-gradient(324deg, rgba(177, 14, 19, 0.972) 50%, #71C4FFFF 50%);
+
+}
+#card-image {
+    max-width: 100%;
+    height: auto;
+    width: 200px;
+    align-self: center;
+    
+}
+.button {
+    display: flex;
+    width: 100%;
+}
+@media  screen and (max-width: 580px) {
+    #card {
+        display: flex;
+        width: 91%;
+        height: 50vh;
+        align-self: center;
+    }
+}
+@media screen and (max-width:300px ) {
+    #card-image {
+        height: auto;
+        width: 50%;
+    }
+    
+}
+
+
